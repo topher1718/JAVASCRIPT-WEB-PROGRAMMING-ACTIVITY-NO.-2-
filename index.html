@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="style.js"></script>
+</head>
+<body>
+  <h1>Javascript Web Output #2</h1>
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname">
+      <br><br>
+      <label for="mname">Middle Name:</label>
+      <input type="text" id="mname">
+      <br><br>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname">
+      <br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age">
+      <br><br>
+      <button type="button" onclick="addRecord()">Add Record</button>
+      <button type="button" onclick="clearForm()">Clear Form</button>
+    </form>
+    <br>
+    <table id="recordTable">
+      <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Actions</th>
+      </tr>
+    </table>
+    <button type="button" onclick="clearRecords()">Clear Records</button>
+
